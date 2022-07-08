@@ -1,0 +1,38 @@
+﻿{
+    "name": "XrayHeroku",
+    "description": "xray websocket proxy on heroku",
+    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "初阶用户",
+            "value": "如出现错误"
+        },
+        "AUUID": {
+            "description": "UUID的网站",
+            "value": "a8cfb97e-142b-43e8-a6b8-3fd0e1288ca7"
+        },
+        "CADDYIndexPage": {
+            "description": "自定义参考",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "请勿修改",
+            "value": "https://raw.githubusercontent.com/breelmy/aryway/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "请勿修改",
+            "value": "https://raw.githubusercontent.com/breelmy/aryway/master/etc/awy.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "SS加密",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "自定义",
+            "value": "https://raw.githubusercontent.com/breelmy/aryway/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/breelmy/aryway",
+    "repository": "https://github.com/breelmy/aryway",
+    "stack": "container"
+}
